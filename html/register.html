@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../img/logo.png" alt="">
+            <span>
+                欢迎登录
+            </span>
+        </div>
+        <div>
+            <span class="fa fa-commenting" aria-hidden="true"></span>
+            登录页面，调查问卷
+        </div>
+    </header>
+    <nav>
+        @依据《网络安金法》，为保障您的账户安全和正常使用，请尽快完成手机号验证!新版
+        <span>
+        《京东隐私政策》
+        </span>
+        已上线，将更有利于保护您的个人隐私。
+    </nav>
+    <div id="bgimg">
+        <div></div>
+        <div>
+            <p>@京东不会以任何形式要求您汇款转账,谨防诈骗</p>
+            <p>
+                <span>扫码登录</span>
+                <span>账户登录</span>
+            </p>
+            <p>
+                <i class="fa fa-user-o" aria-hidden="true" id="i1"></i>
+                <input type="text" placeholder="邮件/用户名/登陆手机" id="username">
+            </p>
+            <p>
+                <i class="fa fa-lock" aria-hidden="true" id="i2"></i>
+                <input type="text" placeholder="密码" id="password">
+            </p>
+            <p>忘记密码</p>
+            <p>
+                <input type="button" value="登录" onclick="register()">
+            </p>
+            <p>
+                <i class="fa fa-qq" aria-hidden="true" id="i3"></i>
+                QQ  |
+                <i class="fa fa-weixin" aria-hidden="true" id="i4"></i>
+                微信
+                <i class="fa fa-chevron-circle-right" aria-hidden="true" id="i5"></i>
+                <span onclick="gologon()"> 
+                    立即注册 
+                </span>
+            </p>
+        </div>
+    </div>
+    <footer>
+        关于我们 | 联系我们 | 人才招聘 | 商家入驻 | 广告服务 | 手机京东 | 友情链接 | 销售联盟 | 京东社区 | 京东公益 | English Site
+    </footer>
+</body>
+</html>
+<script src="../js/register.js"></script>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+</head>
+<body onload="showdetail()">
+    <header>
+        <div>
+            <i class="fa fa-university" aria-hidden="true"></i>
+            <a href="shop.html" style="text-decoration: none;;color: #999;">京东首页</a>
+            
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            浙江
+        </div>
+        <div>
+            欢迎您,15397152476！
+            <a href="../html/logon.html" style="text-decoration: none;color: #999;">免费注册</a>
+            我的订单
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <a href="car.html" style="text-decoration: none;color:#999;">我的购物车</a>
+            
+            客户服务
+        </div>
+    </header>
+    <nav>
+        <div>
+            <img src="../img/logo.png" alt="">
+        </div>
+        <div>
+            <input type="text">
+            <a>搜索</a>
+        </div>
+    </nav>
+    <div class="nr">
+        <img src="../img/book2.jpg" alt="" style="width: 200px;height: 300px;" id="img">
+        <div class="nrl">
+            <div>
+                <span id="name">孩子的一本书</span>
+            </div>
+            <div style="background-color: #f5f5f5;padding: 10px;">
+            <div style="display: grid;grid-template-columns: auto 18%;">
+                <div><span style="color: #999;">京东价</span>
+                <span style="font-size: 20px;color: red;" id="price">￥36.10</span>
+                <span style="font-size: 12px;">[9.5折]</span>
+                <span style="color: #999;">[定价
+                    <del>￥38.00</del>
+                    ]</span>
+                <span style="color: blue;">(降价通知)</span></div>
+                <div style="text-align: right;border-left: 1px solid #ccc;">
+                    <p style="color: #999;">累计评论</p>
+                    <p style="color: blue;">45万+</p>
+                </div>
+            </div>
+            <p style="margin-bottom: 10px;">
+                <span style="color: #999;">促销信息</span>
+                <span style="color: red;border: 1px solid red;">满减</span>
+                  每满100元,可减50元现金 详情>>></p>
+            <p style="margin-bottom: 10px;"> 
+                <span style="color: red;border: 1px solid red;font-size: 14px;">加价购</span>
+                满10元另加26.90元 。或满12元月加16.90元。或满15元另加9.90元。</p>
+            <p style="margin-bottom: 10px;">
+                即可在购物车换购热销商品详情>>>
+            </p>
+            <p style="margin-bottom: 10px;">
+                <i class="fa fa-lightbulb-o" aria-hidden="true" style="color: orange;"></i>
+                以上促钠可在购物车任速其一
+            </p>
+            </div>
+            <p style="margin: 20px 0;color: red;">
+                <span style="color: #999999;">增值服务</span>
+                <i class="fa fa-refresh" aria-hidden="true"></i>
+                高价回收，极速到账
+                <i class="fa fa-gift" aria-hidden="true" style="background-color: red;color: white;margin-left: 10px;"></i>
+                礼品包装
+            </p>
+            <p style="margin: 20px 0;">
+                <span style="color: #999999;">排名</span>
+                <span>自营</span>
+                <span style="color: purple;">童书销量榜</span>
+                第<span style="color: red;">8</span>位
+            </p>
+            <p style="margin: 20px 0;">
+            <span style="color: #999999;">配送至</span>
+            <span style="border: 1px solid #999999;padding: 5px;">浙江杭州市戴村镇V</span>
+            有货
+            </p>
+            <p style="margin: 10px 0;font-size: 14px;padding-left: 55px;">
+            由
+            <span style="color: red;">京东</span>
+            发货,并提供售后服务,23:00前下单，预计
+            <span style="font-weight: bold;">明天(01月06号)</span>
+            送达
+            </p>
+            <p style="margin: 10px 0;">
+            <span style="color: #999;">重量</span>
+            0.1kg</p>
+            <p style="margin: 10px 0;">
+                <span style="color: #999;">服务支持</span>
+                <i class="fa fa-gratipay" aria-hidden="true" style="color: red;font-size: large;"></i>
+                <span style="color: red;font-size: large;">放心购</span>
+                <span style="color: blue;">闪电退款 |</span>
+                <span style="color: blue;">上门换新 |</span>
+                <span style="color: blue;">破损包退换 </span>
+            </p>
+            <p style="margin: 10px 0;border-bottom: 1px solid #999999;padding-bottom: 10px;">
+                <span style="color: #999;padding-left: 80px;">211限时达 自提 49元面基础运费</span>
+            </p>
+        <div style="display: grid;grid-template-columns: 15% 85%;align-items: center;">
+            <div style="display: grid;grid-template-columns: 70% 30%;width: 70px;text-align:center;;">
+                    <div style="border: solid 1px #999;padding-top: 10px;">1</div>
+                    <div>
+                        <p style="border: solid 1px #ccc;background-color: #999999;">+</p>
+                        <p style="border: solid 1px #ccc;background-color: #999999;">-</p>
+                    </div>
+            </div>
+            <div style="text-align: left;" onclick="gocar(this)">
+              <span style="color: white;background-color: red;padding: 10px;" >加入购物车</span>
+            </div>
+        </div>
+        <p style="margin-top: 10px ;margin-bottom: 50px;">
+            <span style="color: #999;">温馨提示</span>
+            1.支持7天无理由退款
+        </p>
+        </div>
+    </div>
+    <footer>
+        <p class="q">
+            <span>品类齐全，轻松购物</span>
+            </p>
+        <p class="w"><span>多仓直发，极速配送</span></p>
+        <p class="e"><span>正品行货，精致服务</span></p>
+        <p class="r"><span>天天低价，畅选无忧</span></p>
+    </footer>
+</body>
+</html>
+<script src="../js/detail.js"></script>

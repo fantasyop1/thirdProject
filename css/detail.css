@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;}
+header{display:grid;grid-template-columns: 50% 50%;justify-items: center;background-color: #cccccc;color: #999999;padding: 20px 0;}
+header span{color: red;}
+nav{display: grid;grid-template-columns: 50% 50%;justify-items: center;align-items: center;padding: 20px 0;}
+nav input{width: 200px;height: 30px;}
+nav a{background-color: brown;padding:5px 15px;color: white;}
+nav div:nth-child(2){display: grid;grid-template-columns: auto auto;}
+footer{height: 100px;width: 100%;background-color: #cccccc;display:grid;grid-template-columns: repeat(4,auto);justify-items: center;
+    align-items: center;}
+    .q{background-image: url(../img/ico_service.png);background-repeat: no-repeat;background-position: 88px 0px;height: 40px;display: block;
+    text-indent: 130px;font-weight: bold;}
+    .w{background-image: url(../img/ico_service.png);background-repeat: no-repeat;background-position: 88px -43px;height: 40px;display: block;
+    text-indent: 130px;font-weight: bold;}
+    .e{background-image: url(../img/ico_service.png);background-repeat: no-repeat;background-position: 88px -86px;height: 40px;display: block;
+    text-indent: 130px;font-weight: bold;}
+    .r{background-image: url(../img/ico_service.png);background-repeat: no-repeat;background-position: 88px -129px;height: 40px;display: block;
+    text-indent: 130px;font-weight: bold;}
+.nr{width: 800px;margin: auto;display: grid;grid-template-columns: 210px auto;}
+.nr img{padding: 5px;border:1px solid #cccccc;}
+.nrl{margin-left: 20px;}
+.nr div p:nth-child(1) span{font-weight: bold;}

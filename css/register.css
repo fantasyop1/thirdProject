@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0;}
+header{display: grid;grid-template-columns: 50% 50%;justify-items: center;align-items: center;}
+header div:nth-child(1){margin:20px ;}
+header div:nth-child(1) span{font-size: 24px;padding-left: 20px;position: absolute;top: 30px;}
+header div:nth-child(2) span{color: red;}
+nav{background-color: wheat;font-size: 12px;color: #999999;height: 40px;text-align: center;padding-top: 20px;}
+nav span{color: black;}
+#bgimg{background-image: url(../img/loginBg.png);height: 475px;display: grid;grid-template-columns: 50% 50%;}
+#bgimg div:nth-child(2){background-color: white;width: 70%;margin: 20px 0;}
+#bgimg div:nth-child(2) p:first-of-type{background-color: wheat;text-align: center;color: #999;padding: 10px 0;}
+#bgimg div:nth-child(2) p:nth-child(2){display: grid;grid-template-columns: 50% 50%;justify-items: center;padding: 20px 0;font-size: 20px;}
+#bgimg div:nth-child(2) p:nth-child(2) span:nth-child(2){color: red;}
+#bgimg div:nth-child(2) p:nth-child(3),#bgimg div:nth-child(2) p:nth-child(4){text-align: center;margin-bottom: 30px;}
+#bgimg div:nth-child(2) p:nth-child(5){text-align: right;padding-right: 50px;margin-bottom: 30px;}
+#bgimg div:nth-child(2) p:nth-child(6){text-align: center}
+#bgimg div:nth-child(2) p:nth-child(6) input{background-color: red;color: white;border: none;width: 430px;margin-bottom: 70px;height: 60px;}
+#bgimg div:nth-child(2) p:nth-child(7) span{color: red;}
+#i1{border: 1px solid #CCC;padding: 5px ;background-color: silver;}
+#i2{border: 1px solid #CCC;padding: 5px 6px;background-color: silver;}
+#i3{color: blueviolet;padding-left: 50px;}
+#i4{color: green;}
+#i5{color:red;padding-left: 230px;}
+#bgimg input{width: 400px;height: 23px;}
+footer{color: #999999;display: grid;justify-items: center;margin-top: 30px;}
+
